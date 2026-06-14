@@ -1,0 +1,26 @@
+order_id,customer_id,gender,age,city,order_date,product_category,quantity,unit_price,payment_method,discount_pct,rating
+1001,C001,Female,29,Hyderabad,2025-01-05,Electronics,1,450.0,UPI,5,4.2
+1002,C002,Male,34,Bengaluru,2025-01-07,Groceries,8,12.5,Credit Card,0,4.0
+1003,C003,Female,,Mumbai,2025-01-09,Fashion,2,55.0,Cash,10,3.8
+1004,C004,Male,41,Delhi,2025-01-11,Home Decor,1,120.0,Debit Card,15,4.5
+1005,C005,Female,23,Chennai,2025-01-14,Beauty,3,25.0,UPI,0,4.1
+1006,C001,Female,29,Hyderabad,2025-01-18,Fashion,1,75.0,UPI,5,4.3
+1007,C006,Male,37,Pune,2025-01-21,Electronics,1,799.0,Credit Card,20,4.7
+1008,C007,Female,31,Delhi,2025-01-22,Groceries,10,10.0,Cash,0,3.9
+1009,C008,Male,45,Kolkata,2025-01-25,Health,2,40.0,Debit Card,5,4.0
+1010,C009,Female,28,Bengaluru,2025-01-28,Beauty,4,18.0,UPI,8,4.4
+1011,C010,Male,26,Mumbai,2025-02-01,Fashion,2,65.0,Credit Card,0,4.1
+1012,C003,Female,,Mumbai,2025-02-02,Electronics,1,520.0,UPI,12,4.6
+1013,C011,Male,52,Chennai,2025-02-04,Home Decor,2,95.0,Debit Card,10,4.2
+1014,C012,Female,39,Pune,2025-02-07,Health,1,60.0,Credit Card,0,3.7
+1015,C013,Male,33,Hyderabad,2025-02-10,Groceries,6,11.0,UPI,0,4.0
+1016,C014,Female,27,Delhi,2025-02-13,Fashion,3,48.0,Cash,5,4.1
+1017,C015,Male,44,Bengaluru,2025-02-16,Electronics,1,999.0,Credit Card,25,4.8
+1018,C016,Female,36,Kolkata,2025-02-18,Beauty,2,32.0,UPI,10,4.2
+1019,C006,Male,37,Pune,2025-02-20,Health,2,42.0,Debit Card,5,4.5
+1020,C017,Female,30,Mumbai,2025-02-22,Groceries,9,9.5,Cash,0,3.8
+1021,C018,Male,50,Delhi,2025-02-24,Home Decor,1,150.0,Credit Card,18,4.6
+1022,C019,Female,24,Chennai,2025-02-25,Beauty,5,16.0,UPI,5,4.0
+1023,C020,Male,32,Hyderabad,2025-02-27,Fashion,2,59.0,Debit Card,0,3.9
+1024,C014,Female,27,Delhi,2025-03-02,Electronics,1,430.0,Credit Card,10,4.4
+1025,C001,Female,29,Hyderabad,2025-03-05,Groceries,7,12.0,UPI,0,4.2
