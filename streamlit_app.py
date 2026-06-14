@@ -1,37 +1,37 @@
 import streamlit as st
 
-st.set_page_config(page_title="Customer Shopping Behavior Analytics")
+st.set_page_config(page_title="Customer Shopping Behavior Analytics", layout="wide")
 
 st.title("📊 Customer Shopping Behavior Analytics")
 
 st.markdown("""
-### Project Overview
+### End-to-End Data Analytics Project
 
-This project analyzes retail customer shopping behavior using:
+This project analyzes retail customer purchasing behavior using:
 
 - Python
 - SQL
 - Power BI
+- Streamlit
 
-The objective is to identify customer purchasing trends,
-revenue drivers, subscription patterns, and business insights.
+The objective is to identify purchasing trends, customer segments, and business opportunities.
 """)
 
-st.header("Dashboard Overview")
+col1, col2 = st.columns(2)
 
-st.image("screenshots/dashboard-overview.png")
+with col1:
+    st.image("screenshots/dashboard-overview.png")
 
-st.header("Filtered Dashboard")
-
-st.image("screenshots/dashboard-filtered.png")
+with col2:
+    st.image("screenshots/dashboard-filtered.png")
 
 st.header("Business Questions")
 
 questions = [
     "Revenue by Gender",
-    "Average Purchase by Gender",
+    "Average Purchase Analysis",
     "Top Rated Products",
-    "Shipping Analysis",
+    "Shipping Type Analysis",
     "Subscription Impact",
     "Discount Analysis",
     "Customer Segmentation",
@@ -41,6 +41,6 @@ questions = [
 ]
 
 for q in questions:
-    st.write("•", q)
+    st.write(f"✅ {q}")
 
-st.success("End-to-End Data Analytics Project using Python, SQL and Power BI")
+st.success("Built using Python, SQL, Power BI, and Streamlit")
