@@ -57,6 +57,17 @@ The SQL file covers a set of exploratory and business-facing questions, includin
 3. Open `phani.ipynb` to review the Python-based exploratory analysis and visuals.
 4. Open `Customer.pbix` in Power BI to explore the dashboard and filters.
 
+## Setup & Run
+
+Install the Python dependencies and run the included Streamlit demo app locally:
+
+```bash
+python -m pip install -r requirements.txt
+streamlit run streamlit_app.py
+```
+
+The app will be available by default at http://localhost:8501 when running locally.
+
 ## Dashboard Previews
 
 The `screenshots/` folder contains dashboard images that show the main report views and filtered states.
