@@ -61,6 +61,13 @@ The SQL file covers a set of exploratory and business-facing questions, includin
 
 The `screenshots/` folder contains dashboard images that show the main report views and filtered states.
 
+## Report
+
+A PDF version of this analysis is available in the `report` folder:
+
+- [Customer_Behavior_Analytics_Report.pdf](report/Customer_Behavior_Analytics_Report.pdf)
+
+
 ## Project Goal
 
 The overall objective is to turn raw shopping data into actionable retail insights that can support marketing, product, and customer retention decisions.
